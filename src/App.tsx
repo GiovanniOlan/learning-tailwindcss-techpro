@@ -1,9 +1,8 @@
 function App() {
-  return (
-    <>
-      <h1>Hola muhdpo</h1>
-    </>
-  )
+  const hola =
+    "holasdddddddddddddddddddddddddddddddddddddddddddddddddddd sd sd sd ";
+
+  return <></>;
 }
 
-export default App
+export default App;

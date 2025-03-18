@@ -17,7 +17,8 @@
   "customizations": {
     "vscode": {
       "settings": {
-        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         }
