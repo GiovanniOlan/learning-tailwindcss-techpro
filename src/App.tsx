@@ -1,8 +1,11 @@
-function App() {
-  const hola =
-    "holasdddddddddddddddddddddddddddddddddddddddddddddddddddd sd sd sd ";
+import Header from "./components/layout/Header";
 
-  return <></>;
+function App() {
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
