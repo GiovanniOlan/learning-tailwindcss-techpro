@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  react:
+    build: 
+      context: .
+      dockerfile: Dockerfile-local
+    ports:
+      - "5001:5173"
+    volumes:
+      - .:/code
+    restart: no
